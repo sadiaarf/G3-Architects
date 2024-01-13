@@ -1,0 +1,83 @@
+/* font family from google */
+/* shared style */
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+/* nav */
+header {
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 230px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-title {
+    color: #131313;
+   font-size: 3rem;
+    font-weight: 700;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 40px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+nav li a{
+    text-decoration: none;
+    color: #424242;
+}
+/* banner */
+.banner-content{
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.banner-title{
+    color: #131313;
+    font-weight: 700;
+    font-size: 4rem;
+}
+.banner-description{
+    color: #727272;
+    font-size: 1rem;
+}
+.btn-primary{
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    color: #FFF;
+    background-color: #FF900E;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+.img-in-banner{
+width: 100%;
+}
+/* responsive media query styles */
+@media screen and (max-width:576px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
+/* mobile or medium devices */
+@media screen and (min-width:576px) and (max-width:992px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
