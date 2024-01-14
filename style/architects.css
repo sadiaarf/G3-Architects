@@ -15,7 +15,7 @@ nav {
     justify-content: space-between;
 }
 
-.nav-title {
+.text-design-share{
     color: #131313;
     font-size: 3rem;
     font-weight: 700;
@@ -71,33 +71,13 @@ nav li a {
     width: 100%;
 }
 
-/* responsive media query styles */
-@media screen and (max-width:576px) {
-    header {
-        padding: 20px;
-    }
 
-    nav {
-        flex-direction: column;
-    }
-}
-
-/* mobile or medium devices */
-@media screen and (min-width:576px) and (max-width:992px) {
-    header {
-        padding: 20px;
-    }
-
-    nav {
-        flex-direction: column;
-    }
-}
 
 /* features style */
 /* main section */
 main {
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 0px auto;
     margin-top: 50px;
 }
 
@@ -130,18 +110,104 @@ main {
     font-weight: 700;
 }
 
-.features-explain {
-    color: #727272;
-    font-weight: 400;
-    font-size: 0.8rem;
-}
 .design{
     font-size: 2rem;
 }
 /* information style */
 .information{
     margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
-.architect{
-  
+.features-head{
+    color: #131313;
+    font-size: .9rem;
+    font-weight: 600;
+}
+
+.features-explain {
+    color: #727272;
+    font-weight: 400;
+    font-size: 1rem;
+   
+}
+/* some facts */
+.card-container{
+    display: flex;
+  justify-content: space-around;
+}
+.card-container .card{
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 30px 30px;
+    height: 170px;
+    width: 170px;
+   
+}
+.card-title{
+    color: #727272;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 5px;
+}
+.card-container .container-stats{
+    font-size: 2.7rem;
+    font-size:500;
+    color: #424242;
+    margin-top: 17px;
+    margin-bottom:17px;
+}
+/* sponsors */
+.sponsors{
+    margin-top: 115px;
+    text-align: center;
+}
+.sponsors-image{
+   justify-content: space-evenly;
+   height: 40px;
+   width: 40px;
+    display: flex;
+   
+}
+
+
+
+
+
+
+
+
+/* responsive media query styles */
+@media screen and (max-width:576px) {
+    header , .card-container {
+        padding: 20px;
+    }
+
+    nav,
+    .teams , .card-container
+    {
+        flex-direction: column;
+    }
+    .pictures-of-team-members { 
+        grid-template-columns:1fr
+    }
+.card-container{
+    gap: 20px;
+}
+}
+
+/* mobile or medium devices */
+@media screen and (min-width:576px) and (max-width:992px) {
+    header {
+        padding: 20px;
+    }
+
+    nav , .teams {
+        flex-direction: column;
+    }
+    .features-name{
+        padding-left: 57px;
+    }
+
 }
