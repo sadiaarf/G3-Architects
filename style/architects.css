@@ -217,17 +217,12 @@ main {
     margin-left: 0;
 }
 .footeer{
-    background: #101010;
+    background:#FFF4E7 ;
     border: 1px solid  #FFF4E7 ;
     border-radius: 5px;
     color: #424242;
     text-align: center;
-  /* padding: 3px 40px; */
-    /* width: 75%; */
-    /* align-items: center; */
-   margin-top: 45px;
-   width: 1200px;
-height: 50px;
+  margin: 65px 135px 0px 135px;
 }
 
 
